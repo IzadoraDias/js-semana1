@@ -1,0 +1,47 @@
+Conditional 
+
+if / else
+if ([expressão -> true/false]){
+   [código a ser executado caso expressão = true]
+} else if ([expressão2 -> true /false]) {
+   [código a ser executado caso expressão = true]
+} else{
+   [código a ser executado caso expressão e expressão2= false]
+}
+
+switch/case
+  switch([valor])
+  case[1]
+  [código a ser executado caso valor  == 1]
+    break
+  [código a ser executado caso valor  == 2]
+    break
+
+default:
+   [código a ser executado caso valor  == qualquer coisa] 
+
+
+operador ternario
+
+[expressão] ? [se condição true] : [se não]
+[expressão] ? [se expressão true] : [expressão2] ? 
+[se expressão e expressão e expressão2 false]
+
+
+variaveis
+
+let nome_da_variavel = 876  // pode ser alterado
+const nome_da_constante = 123 // não pode ser alterado
+var nome= 123
+
+
+Let ou Var
+Com let isso daria erro. Conforme descrição na MDN: let permite 
+que você declare variáveis limitando seu escopo no bloco, 
+instrução, ou em uma expressão na qual ela é usada.
+ Isso é inverso da keyword var, que define uma variável 
+globalmente ou no escopo inteiro de uma função,
+ independentemente do escopo de bloco.
+
+
+Loops

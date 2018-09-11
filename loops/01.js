@@ -1,13 +1,20 @@
-// Escreva um loop um Javascript
+// Escreva um loop em Javascript
 // que vai calcular a soma de todos
 // os números entre 0 e 300.
 
-
-
+let soma = 0
+for (let i = 0; i <= 300; i++){
+     soma += i //soma = soma + i 
+}  
 
 // Escreva um loop em Javascript
 // que vai calcular a seguinte soma:
-// 1 * 1 + 2 * 2 + 3 * 2 + ... + 400 * 400
+// 1 * 1 + 2 * 2 + 3 * 3 + ... + 400 * 400
+ 
+let soma 
+for (let i = 1; i < 400; i++){
+    soma += i * i // soma = soma + 1 * 1
+}
 
 
 
@@ -16,20 +23,37 @@
 // que vai calcular a seguinte soma:
 // 1 * 2 + 2 * 3 + 3 * 4 + ... + 249 * 250
 
+let soma = 0
+
+for (let i = 0; i < 250; i++){
+    soma += i * (i + 1))
+} 
 
 
 
 // Escreva um loop em Javascript que
 // vai calcular 10! (10 fatorial), o
 // que significa 10 * 9 * 8 * 7 ... * 1.
+let fatorial = 1
 
-
+for (let i = 10; i > 0; i--) {
+    fatorial = fatorial * i 
+}
 
 
 // Escreva um loop em Javascript que 
 // calcula quantos termos a soma
 // 1 + 2 + 3 + ... precisa para
 // que o resultado dela exceda um milhão.
+
+let soma = 0
+let i= 0
+let contador = 0
+
+while(soma > 1000000){   
+   contador = contador + 1
+   soma = soma + contador
+} console.log(contador)
 
 
 
@@ -52,6 +76,11 @@
 // que gera uma lista com 100
 // número randomicos.
 
+let arr= []
+   
+for (let i = 0; i < 100; i++){ 
+     arr.push(Math.floor(Math.random() * 10))   
+}
 
 
 
