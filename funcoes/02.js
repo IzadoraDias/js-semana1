@@ -7,7 +7,7 @@
 // <objeto> pra casa."
 
 function frase(nome, pronome, objeto){
-     return `${nome} foi caminhando parque. ${pronome} encontrou ${objeto}. decidiu levar
+     return `${nome} foi caminhando parque. ${pronome} encontrou ${objeto}. Decidiu levar
      ${objeto} pra casa.`
 }
 
@@ -30,14 +30,14 @@ function raizquadrada(){
 // número qualquer e retorna
 // a representação binaria dele.
 
-function conversorbinario(x){
-    return x.toString(x)
+function conversorbinario(num){
+    return x.toString(2)
 }
 
 
 // Escreva uma função em Javascript
 // que recebe uma lista de números
-// e retorna o maior número da lista.
+// e retorna o maior número da lista.//
  
 function maiornumero(arr){
     return Math.max(...arr)
